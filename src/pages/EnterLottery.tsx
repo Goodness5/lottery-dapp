@@ -1,4 +1,5 @@
 import { ethers } from "ethers";
+
 import React, { ChangeEvent, SyntheticEvent, useEffect, useState } from "react";
 import {
   erc20ABI,
@@ -7,6 +8,7 @@ import {
   usePrepareContractWrite,
   useWaitForTransaction,
 } from "wagmi";
+
 import { LOTTERY_CONTRACT, TOKEN_CONTRACT } from "../CA";
 import { getLotteryContract, getTokenContract } from "../utils/tokenContract";
 
